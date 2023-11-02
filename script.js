@@ -1,2 +1,4 @@
 //your JS code here. If required.
-console.log("You are using" + navigator.appName + "version" + navigator.appVersion);
+let browserName = navigator.appName;
+let version = navigator.appVersion;
+document.getElementById("browser-info").innerHTML = "You are using " + browserName + " version " + version;
